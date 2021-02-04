@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.floweytf.betterlogger'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.eclipse.jetty:jetty-util:9.4.9.v20180320'
+    compile 'org.slf4j:slf4j-api:1.7.13'
+}
+
+test {
+
+}
